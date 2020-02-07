@@ -31,5 +31,5 @@ product2 [] res = res -- if there are no elements left, return res
 product2 (x : xs) res = product2 (xs) (x * res) -- perform multiplication to the parameter
 
 -- f
--- product3 :: [Int] -> Int 
--- product3 list = foldr (* )
+product3 :: [Int] -> Int
+product3 list = foldr (*) 1 list

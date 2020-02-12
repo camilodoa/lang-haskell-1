@@ -1,3 +1,5 @@
+-- Team: Camilo Ortiz, Faith Merritt, Ramses Ngachoko
+
 -- a
 -- classifies a number into a string (positive, negative, zero)
 classify :: Int -> String
